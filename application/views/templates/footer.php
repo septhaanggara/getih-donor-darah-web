@@ -7,43 +7,57 @@ footer{
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
+  flex-shrink: 0;
 }
 footer a{
 	color: #d5d5d5;
 }
-hr.light-100{
-	border-top: 1px solid #d5d5d5;
+hr.light-100{	
 	width: 100%;
 	margin-top: .8rem;
 	margin-bottom: .1rem;   
 }
 </style>
-<footer>
-<div class="container-fluid padding">
-	<div class="row text-center">
-		<div class="col-md-4">
-			<img src="assets/img/logo.png" width="150" height="250">
-			<hr class="light">
-		</div>
-	<div class="col-md-4">
-		<hr class="light">
-		<h5>About Us</h5>
-		<hr class="light">
-		 <p>Getih adalah sebuah website yang menyediakan informasi mengenasi donor darah. Arti getih dalam bahasa indonesia adalah darah. kata ini diambil karena kami sebagai constructor web merupakan mahasiswa yang berasal dari suku sunda. web kami melayani proses donor darah dan juga ikut serta menyuarakan pentingnya melakukan donor darah bagi kesehatan kita dan orang yang membutuhkan.</p>	
-	</div> 
-	<div class="col-md-4">
-		<hr class="light">
-		<h5>Anggota Kelompok</h5>
-		<hr class="light">
-		 <p>Septha Anggara 1301170777</p>
-		 <p>Fahmi Fauzan 1301174697</p>
-		 <p>Imam Nurul I 13011704688</p>
-		 <p>Vina Putri D 1301173705</p>
-		 <p>Khaerani Nur Azizah 1301173712</p>
-	</div>	 
-	</div>
+   <footer>
+        
+      <div class="container-fluid padding ">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <img src="<?= base_url('/assets/img/logo.png')?>" style="width: 100px;height: 150px">
+      <hr class="light">
+      <a>Saatnya selamatkan sesama</a>
+    </div>
+  <div class="col-md-4">
+    <h4>Contact Us</h4>
+    <hr class="light">
+    <div class="footer-style-w3ls">
+            <h6 class="mb-2"><span class="fa mr-1 fa-envelope-open"></span> Email</h6>
+            <p>getih.donordarah@gmail.com</a></p>
+          </div>
+    <hr class="light">
+     <div class="footer-style-w3ls my-3" style="font-size: 15px;">
+            <h6 class="mb-2"><span class="fa mr-1 fa-phone"></span>Phone</h6>
+            <p>+62 822 1520 4677</p>
+          </div>  
+      <hr class="light">
+  </div> 
+  <div class="col-md-4">
+    <h4>Alamat</h4>
+    <hr class="light">
+  <div class="footer-style-w3ls">
+      <h6 class="mb-2"> <span class="fa mr-1 fa-map-marker"></span> Location</h6>
+      <p>Jl. Telekomunikasi Jl. Terusan Buah Batu, Bandung.</p>
+      <hr class="light">
+    </div>
+  </div>   
+  </div>
 </div>
-</footer>
+<div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Getih <?= date('Y');?> </span>
+          </div>
+        </div>
+      </footer>
 
 </body>
 </html>

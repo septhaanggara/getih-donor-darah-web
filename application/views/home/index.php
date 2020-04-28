@@ -4,7 +4,7 @@
 </head>
 <body>
 <!---slider--->
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="padding-top: 50px;">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -44,27 +44,20 @@
 <div class="container-fluid padding">
   <div class="row text-center padding">
     <div class="col-xs-12 col-sm-6 col-md-4">
-      <img class="card-img-top" src="assets/img/sehat.png" height="350" width="600">
+      <img class="card-img-top" src="assets/img/sehat.png" style="height: 200px; width: 200px">
       <p>Membuat lebih sehat secara psikologis dan memperpanjang usia</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
-      <img class="card-img-top" src="assets/img/jantung.png" height="350" width="600">
+      <img class="card-img-top" src="assets/img/jantung.png" height="350" width="600" style="height: 200px; width: 200px">
       <p>Menurunkan risiko terkena penyakit jantung dan pembuluh darah</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
-      <img class="card-img-top" src="assets/img/berat.png" height="350" width="600">
+      <img class="card-img-top" src="assets/img/berat.png" height="350" width="600" style="height: 200px; width: 200px">
       <p>Membantu menurunkan berat badan</p>
     </div>
   </div>
 <hr class="ay-4">
 </div>
-<!--- background -->
-<figure>
-  <div class="Fixed-Wrap">
-    <div id="fixed">
-    </div>
-  </div>
-</figure>
 <!--- Two Column Section -->
 <div class="container-fluid padding">
 <div class="row welcome text-center">
@@ -74,7 +67,7 @@
   <div class="col-12">
     <p>Darah itu banyak jenisnya dan juga bisa saling ga cocok satu sama lainnya.Nah ini ada info keterangan hubungan darah mana yang cocok antara 1 dengan yang lainnya.</p>
     <hr>
-  <img src="assets/img/table.png" class="d-block w-100" alt="slide1" width="300" height="650">
+  <img src="assets/img/table.png" class="d-block w-100" alt="slide1" style="width: 500px; height: 600px; padding-bottom: 10px">
   </div>
 </div>
 </div>

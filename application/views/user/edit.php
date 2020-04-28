@@ -2,7 +2,7 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Daftar Stock Darah</h1>
+          <h1 class="h3 mb-4 text-gray-800">Edit Profile</h1>
           <div class="row">
 
           	<div class="col-lg-8">
@@ -31,6 +31,7 @@
     			<div class="custom-file">
   <input type="file" class="custom-file-input" id="image" name="image">
   <label class="custom-file-label" for="image">Choose file</label>
+  <h7>*gambar yang di upload berkapasitas maksimal 2mb</h7>
 </div>
     		</div>
     	</div>

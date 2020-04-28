@@ -19,7 +19,7 @@
 
 <body class="bg-gradient-primary">
 
-  <div class="container">
+  <div class="container"  style="padding-top: 70px;">
 
     <!-- Outer Row -->
     <div class="row justify-content-center">
@@ -52,7 +52,7 @@
                     <hr>
                   </form>
                   <div class="text-center">
-                    <a class="small" href="forgot-password.html">Forgot Password?</a>
+                    <a class="small" href="<?= base_url(); ?>auth/forgotpassword">Forgot Password?</a>
                   </div>
                   <div class="text-center">
                     <a class="small" href="<?= base_url(); ?>auth/registration">Create an Account!</a>

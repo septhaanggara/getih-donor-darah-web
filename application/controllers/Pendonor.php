@@ -5,9 +5,7 @@ class Pendonor extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		//load model "Mahasiswa_model"
 		$this->load->model('Pendonor_model');
-		//load library form validation
 	}
 
 	public function index()
@@ -25,7 +23,10 @@ class Pendonor extends CI_Controller
 	public function tambah()
 	{
 		$data['judul'] = 'Form Tambah Data Pendonor';
+		$data['user']=$this->db->get_where('user',['email'=>
+	$this->session->userdata('email')])->row_array();
 
+	$this->form_validation->set_rules('name','Full Name','required|trim');
 		//from library form_validation, set rules for nama, nim, email = required
 		$this->form_validation->set_rules('nama', 'Nama', 'required');
         $this->form_validation->set_rules('nim', 'NIM', 'required|numeric');

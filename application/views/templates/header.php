@@ -18,31 +18,31 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="<?= base_url(); ?>"><img src="assets/img/logo.png" height="50" width="30"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler-icon">
+   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="<?= base_url(''); ?>"><img src="<?= base_url('/assets/img/logo.png'); ?>" height="50" width="30"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-             <a class="nav-item nav-link" href="<?= base_url(); ?>">Home</a>
-        </li>
-        <li class="nav-item">
-             <a class="nav-item nav-link" href="<?= base_url(); ?>pendonor">Pendonor</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-item nav-link" href="<?= base_url(); ?>stock">Stock Darah</a>
-        </li>
-         <li class="nav-item">
-             <a class="nav-item nav-link" href="<?= base_url(); ?>auth">Log in</a>
-        </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="<?= base_url()?>">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url()?>pendonor">Daftar Pendonor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url()?>stock">Stock Darah</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url()?>auth">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?= base_url()?>about">About Us</a>
+      </li>
     </ul>
-    
-</div>
-</div>
-    </nav> 
+  </div>
+</nav>
 
    
                    
